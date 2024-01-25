@@ -1,0 +1,19 @@
+Aplikacja do obliczania pola trójkąta
+
+
+Interfejs aplikacji utwórz z wykorzystaniem frameworka Bootstrap.
+
+W kontenerze utwórz strukturę:
+- sekcję nagłówka strony
+- sekcję z formularzem (trzy pola do wprowadzania danych typu tekstowego oraz przycisk)
+- sekcję główną, w której będą wyświetlane alerty i wyniki obliczeń w komponencie karty
+- sekcję stopki, w której wpisz encję praw autorskich, Twoje imię i nazwisko i klasę
+Wygląd interfejsu jak najbardziej zbliżony do oryginału na zrzucie i filmie (min. szerokość kontenera: 400px maksymalna: 600px)
+
+Działanie aplikacji 
+Aplikacja działa w przeglądarce (frontend). Szczegółowe działanie aplikacji pokazane jest na dołączonym filmie
+
+1) po wysłaniu formularza sprawdzana jest poprawność wprowadzonych danych (czy wprowadzone zostały dane we wszystkich polach i czy są liczbami - jeśli nie - pojawia się stosowny komunikat w kolorze czerwonym
+2) sprawdzane jest czy można z boków o podanej długości utworzyć trójkąt, wyświetlany jest stosowny komunikat jak na filmie
+3) jeśli można utworzyć trójkąt sprawdzane jest jaki to jest trójkąt (ostrokątny, prostokątny czy rozwartokątny) i wyświetlane jest odpowiednie zdjęcie i stosowne komunikaty jak na filmie
+4) po wykonaniu obliczeń formularz jest czyszczony, jako aktywne ustawione jest pole do wprowadzania pierwszej liczby
